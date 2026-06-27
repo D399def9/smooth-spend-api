@@ -1,18 +1,25 @@
-# smooth spend api
+# Smooth Spend API
 
-This is the backend for a budget tracker app i'm working on. The main idea is that you take a picture of a receipt, and this api parses it to get the total amount and what you bought. 
+This is the backend for a budget tracker app I'm building. The idea is simple: you take a picture of a receipt, and the API extracts the total amount and the purchased items.
 
-This is already casual and natural — no change needed.: https://smooth-spend-api.hackclub.app
+API URL:
+https://smooth-spend-api.hackclub.app
 
-### note for reviewers
-if you click the link you'll just see a basic "server is online" text. That's because it's just a backend api meant to handle requests from the app, not a full website. 
+## Note for Reviewers
 
-Also, i used chatgpt to figure out some of the express routes and backend logic since i'm still learning, and it helped me fix some bugs.
+If you open the API URL in your browser, you'll only see a simple "Server is online" message. That's expected because this project is a backend API, not a website. It is designed to receive requests from the frontend application.
 
-### how to run it locally
-if you want to run it on your machine, just clone it and run:
+I used ChatGPT to better understand some Express concepts, troubleshoot bugs, and learn while developing the project. I reviewed and tested the code myself.
+
+## Running Locally
+
+```bash
+git clone <https://github.com/D399def9/smooth-spend-api>
+cd smooth-spend-api
 npm install
-This phrase is already very human and natural — no change needed.
+npm start
+```
 
-### versione italiana
-questo è il backend di un'app per tracciare le spese. mandi la foto dello scontrino e l'api estrae il totale e i dati. è hostato su nest, quindi se visiti il link vedi solo il messaggio che il server è online.
+## Italian
+
+Questo è il backend di un'app per tracciare le spese. Scatti una foto dello scontrino e l'API estrae il totale e gli articoli acquistati. È ospitato su Nest, quindi visitando il link vedrai soltanto un messaggio che indica che il server è online.
