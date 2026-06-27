@@ -1,29 +1,32 @@
 # 🚀 Smooth Spend API
 
-Benvenuto nel repository di **Smooth Spend API**! Questa è l'API backend per la gestione delle finanze di Smooth Spend, ospitata ufficialmente su [Hack Club Nest](https://nest.hackclub.app).
+Hey there! Welcome to the **Smooth Spend API** repo. This is the backend API that powers the finance management for Smooth Spend, and it's officially hosted over on [Hack Club Nest](https://nest.hackclub.app).
 
-## 🌐 Link del Progetto
-L'API è online e raggiungibile al seguente indirizzo:
-👉 **[https://smooth-spend-api.hackclub.app](https://smooth-spend-api.hackclub.app)**
+👉 **Live Project Link:** [https://smooth-spend-api.hackclub.app](https://smooth-spend-api.hackclub.app)
 
 ---
 
-## 🛠️ Tecnologie Utilizzate
-* **Node.js** & **Express** – Per la logica del server e le rotte API.
-* **PM2** – Process manager per mantenere l'applicazione attiva in background 24/7.
-* **Caddy / Nest Proxy** – Per la gestione del dominio SSL e il reverse proxy.
+### 🤖 AI Disclosure (For Stardance Review)
+Just to be completely transparent for the Stardance certification: I used AI tools (like ChatGPT) during development to help brainstorm the Express backend logic, debug some API routes, and help clean up this documentation file. 
 
 ---
 
-## 🚀 Come Avviare il Progetto in Locale
+### 🛠️ Tech Stack
+* **Node.js & Express** – Handles the server logic and all the API endpoints.
+* **PM2** – The process manager keeping the app alive in the background 24/7.
+* **Caddy / Nest Proxy** – Used for reverse proxying and handling SSL setup.
 
-Se vuoi clonare questo progetto ed eseguirlo sul tuo computer, segui questi passaggi:
+---
 
-### 1. Prerequisiti
-Assicurati di avere installato [Node.js](https://nodejs.org/).
+### 🚀 Local Setup
 
-### 2. Installazione
-Clona la cartella ed entra nella directory del progetto:
+If you want to clone the repo and run it on your own machine, here’s how to do it:
+
+#### 1. Prerequisites
+You just need to have [Node.js](https://nodejs.org/) installed.
+
+#### 2. Installation
+Pop open your terminal, clone down the directory, and install the dependencies:
 ```bash
 cd smooth-spend-api
 npm install
