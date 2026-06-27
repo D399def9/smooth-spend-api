@@ -14,7 +14,7 @@ I used ChatGPT to better understand some Express concepts, troubleshoot bugs, an
 ## Running Locally
 
 ```bash
-git clone <https://github.com/D399def9/smooth-spend-api>
+git clone https://github.com/D399def9/smooth-spend-api
 cd smooth-spend-api
 npm install
 npm start
