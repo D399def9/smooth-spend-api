@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/D399def9/smooth-spend-api/issues"
   },
-  "homepage": "https://github.com/D399def9/smooth-spend-api#readme"
+  "homepage": "https://github.com/D399def9/smooth-spend-api#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
