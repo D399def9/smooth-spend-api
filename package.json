@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/D399def9/smooth-spend-api#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.2.0",
+    "tesseract.js": "^7.0.0"
   }
 }
