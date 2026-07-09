@@ -5,7 +5,7 @@ const app = express();
 
 const Port = 3000;
 app.use(cors());
-app.use(express.jason())
+app.use(express.json());
 
 app.use("/api",scanRoute);
 
