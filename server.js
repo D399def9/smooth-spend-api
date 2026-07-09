@@ -1,20 +1,18 @@
 const express = require("express");
 const cors = require("cors");
 
-const scanRoute = require("./routes/scan");
-
 const app = express();
-const PORT = 3000;
 
+const Port = 3000;
 app.use(cors());
-app.use(express.json());
+app.use(express.jason())
 
-app.use("/api", scanRoute);
+app.use("/api",scanRoute);
 
-app.get("/", (req, res) => {
-    res.send("Smooth Spend API");
+app.get("/",(req,res) => {
+     res.send("Smooth Spend API");
 });
 
-app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+app.listen(Port, () =>{
+    console.log('Server running on http://localhost:${PORT}');
 });
