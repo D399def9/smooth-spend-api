@@ -14,6 +14,6 @@ app.get("/", (req, res) => {
     res.send("Smooth Spend API");
 });
 
-app.listen(Port, () => {
-    console.log(`Server running on http://localhost:${Port}`);
+app.listen(PORT, "0.0.0.0", () => {
+    console.log(`Server running on port ${PORT}`);
 });
